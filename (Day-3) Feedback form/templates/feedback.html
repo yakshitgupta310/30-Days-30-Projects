@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Please rate your sevice</title>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+        <img src="../Teslapng.png" alt="Tesla" class="logo">
+
+        <form action="/submit" method="POST">
+            <div class="form-group">
+                <label for="customer_name" id="customer_name_label">Customer Name</label><br />
+                <input type="text" name="customer_name" id="customer_name" placeholder="Full Name">
+            </div>
+            <br />
+            <div class="form-group">
+                <label for="Model" id="Model_label">Car Model</label><br/>
+                <select name="Model" id="Model_select">
+                    <option value="">Select Model</option>
+                    <option value="Model S">Model S</option>
+                    <option value="Model X">Model X</option>
+                    <option value="Model 3">Model 3</option>
+                    <option value="Model Y">Model Y</option>
+                    <option value="Cybertruck">Cybertruck</option>
+                    <option value="Roadster">Roadster</option>
+                </select>
+            </div>
+            <br />
+            <div class="form-group">
+                <label for="email">Email</label><br/>
+                <input type="email" name="email" id="email" placeholder="Enter email">
+            </div>
+            <br />
+            <div class="form-group">
+                <label for="zipcode" >Zipcode</label>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+                <label for="country" id="country_label">Country</label><br/>
+                <input type="number" class="zipcode" name="zipcode" placeholder="zipcode">
+                &emsp;&emsp;&ensp;
+                <input type="text" class="country" name="country"  placeholder="Country">
+            </div>
+            <br />
+            <div class="form-group">
+                <br/>
+                <label for="comments" id="comments_label">Comment about your experience</label><br/>
+                <textarea name="comments" id="comments" cols="50" rows="10" placeholder="Please tell us what you liked/did not like"></textarea>
+            </div>
+            <br/>
+            <br/>
+            <button type="submit" id="submit_form" name="submit">Submit</button>
+
+
+        </form>
+    </div>
+
+
+
+
+
+{% endblock %}
