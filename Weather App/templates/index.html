@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Home Page</title>
+{% endblock %}
+
+{% block body %}
+<div class="Weather_Report">
+    <h1>Weather report</h1>
+</div>
+
+<div class="Checked_cities">
+    <br>
+    <br>
+    <table class="City_Table">
+        <tr>
+            <th>City</th>
+            <th>Action</th>
+        </tr>
+        {% for city in cities %}
+        <tr>
+            <td>
+                <a href='/result/{{ city.id }}' style="text-transform:uppercase">{{ city.checked_city }}</a>
+            </td>
+            <td>
+                <a href="/remove/{{ city.id }}">Remove</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+
+<div class="Weather_submit">
+
+    <br>
+    <br>
+    <form class="Weather_text" action="" method="POST">
+        City Name : <input type="text" name="InputCity" class="Weather_text" id="Input_City" autocomplete="off">
+        <br>
+        <button type="submit" name="Submit" value="Submit" class="Weather_text" id="Citysubmit" formaction="/cityresult">Submit</button>
+        <button type="submit" name="Add" value="Add" class="Add_city_to_list" id="City_to_list" formaction="/">Add</button>
+    </form>
+</div>
+{% endblock %}

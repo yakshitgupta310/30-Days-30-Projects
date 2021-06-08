@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block head %}
+{% endblock %}
+
+
+{% block body %}
+<div class="Weatherresults" id="cityresults" style="background-image: url({{ img }}); background-repeat: no-repeat;">
+    <h2 class="Weatherresults" id="city"> {{ city }} </h2>
+    <h3 id="Temperature" class="Weatherresults"> Temperature : {{ temp }} °C</h3>
+    <h3 id="Condition" class="Weatherresults"> Condition : {{ condition }} </h3>
+    <h3 id="Time" class="Weatherresults"> Time : {{ time }} </h3>
+</div>
+{% endblock %}
