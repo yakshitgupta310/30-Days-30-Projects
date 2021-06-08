@@ -1,0 +1,96 @@
+/*Index.html*/
+
+.Weather_Report{
+    color: Aquamarine ;
+    text-align: center;
+}
+
+.Weather_text{
+    padding: 3px 5px;
+    font-family:'Lato', sans-serif;
+    font-size:24px ;
+    text-align:center;
+}
+#Input_city{
+    box-sizing: border-box;
+    padding:0px;
+    font-size:24px ;
+    font-family:'Lato', sans-serif;
+    width: 30px;
+    text-align:left;
+
+}
+
+#Citysubmit{
+    background-color: Coral ;
+    margin-top: 20px;
+    color: White ;
+    border-radius: 5px;
+    border:2px solid DarkGray ;
+}
+
+#City_to_list{
+    background-color: Coral ;
+    font-family:'Lato', sans-serif;
+    padding: 3px 5px;
+    font-size:24px ;
+    margin-top: 20px;
+    color: White ;
+    border-radius: 5px;
+    border:2px solid DarkGray ;
+}
+
+
+/*City_Table*/
+
+.City_Table{
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+
+table, td, th{
+    border:1px solid black;
+    border-color:DarkGray;
+}
+
+table{
+    width: 40%;
+    border-collapse: collapse;
+
+}
+
+tr:hover {background-color:#f5f5f5;}
+
+th{
+   height: 20px;
+   font-size:20px;
+   background-color: CadetBlue;
+   color:White;
+}
+
+td, th{
+    padding:5px;
+    text-align: center;
+}
+
+/*cityresult.html*/
+.Weatherresults{
+    font-family:'Lato', sans-serif;
+    font-size:22px ;
+    text-align:center;
+
+}
+
+#city{
+    color: White ;
+    font-size:27px ;
+
+}
+
+#cityresults{
+    background-color: LightSteelBlue ;
+    display: inline-block;
+    padding: 15px ;
+    border-radius: 10px ;
+}
