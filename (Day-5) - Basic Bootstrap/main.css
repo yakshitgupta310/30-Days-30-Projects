@@ -1,0 +1,18 @@
+.box{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 15px;
+    background-color: Aquamarine;
+}
+
+
+.col-lg-6{
+    background-color: red;
+    border: 2px solid white;
+    text-align: center;
+}
+
+.height{
+    height: 150px;
+    background-color: orange;
+}
