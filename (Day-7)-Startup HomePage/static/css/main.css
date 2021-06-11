@@ -1,0 +1,42 @@
+body{
+    background-color: #011627;
+    font-family: 'Ubuntu', sans-serif;
+    border: 40px solid #2ec4b6;
+    border-top:0px;
+    margin:0;
+}
+
+#landingpage_content{
+    color:#FDFFFC;
+    text-align: center;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width:85% ;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+p{
+   padding-right: 20%;
+   padding-left:20%;
+}
+
+label{
+    font-size: 1.5em;
+}
+
+input{
+    width:25%;
+}
+
+#signup_button{
+    color:#9e2a2b;
+    font-size:1.1em;
+    font-style: bold;
+    margin-top: 6px;
+    padding: 20px 30px;
+    border-radius: 8px;
+    background-color: #ee9b00;
+    border:1px solid white;
+}
