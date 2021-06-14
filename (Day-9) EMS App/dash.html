@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>Dashboard</title>
+</head>
+<body class="dashboard">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="dash.html">Hi, Yakshit</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="employees.html">Employees</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="jobs.html">Jobs</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control form-control-sm me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-success" type="submit" id="searchbutton"><i class="bi bi-search"></i></button>
+      </form>
+    </div>
+    </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row mt-5">
+            <div class="col-lg-4 col-md-4 col-sm-7">
+                <div class="card borderid">
+                    <div class="card-body">
+                        <h5 class="card-title">254 <span class="text-muted">Employees</span></h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                            <a href="#" class="list-group-item list-group-item-primary">View all</a>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-7">
+                <div class="card borderid">
+                    <div class="card-body">
+                        <h5 class="card-title">52 <span class="text-muted">Jobs</span></h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                            <a href="#" class="list-group-item list-group-item-primary">View all</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
