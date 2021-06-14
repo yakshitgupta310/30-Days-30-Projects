@@ -1,0 +1,25 @@
+body{
+    background-color: #ece4db;
+}
+
+.bx{
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2)
+}
+#signinbutton{
+    background-color: #218838;
+}
+
+
+/* Dashboard Page*/
+body.dashboard{
+    background-color: #e5e5e5;
+}
+
+#searchbutton{
+    background-color: #218838;
+}
+
+.borderid{
+    border:0;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+}
